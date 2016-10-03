@@ -1,0 +1,14 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Teste de Camera</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+<ion-content padding>
+
+  <button ion-button (click)="takePhoto()" block>FOTO</button>
+	<img src="{{image}}" [hidden]="!image">
+
+</ion-content>

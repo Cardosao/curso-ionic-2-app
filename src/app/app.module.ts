@@ -5,11 +5,13 @@ import { AboutPage } from '../pages/about/about';
 import { ContactPage } from '../pages/contact/contact';
 import { HomePage } from '../pages/home/home';
 import { TabsPage } from '../pages/tabs/tabs';
+import { CameraTest } from '../pages/camera-test/camera-test';
 
 @NgModule({
   declarations: [
     MyApp,
     AboutPage,
+		CameraTest,
     ContactPage,
     HomePage,
     TabsPage
@@ -21,6 +23,7 @@ import { TabsPage } from '../pages/tabs/tabs';
   entryComponents: [
     MyApp,
     AboutPage,
+		CameraTest,
     ContactPage,
     HomePage,
     TabsPage
